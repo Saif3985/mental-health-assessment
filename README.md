@@ -2,7 +2,7 @@
 
 AI-powered psychological screening tool using **Llama 3.2-3B** and **Whisper AI** for intelligent mental health evaluation.
 
-![Assessment Interface](screenshots/assessment_interface.png)
+![Assessment Interface](screenshots/results.png)
 
 ## Features
 
