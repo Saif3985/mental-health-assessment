@@ -1,0 +1,32 @@
+# Core Dependencies for Mental Health Assessment System
+# ===================================================
+
+# Deep Learning Framework
+torch>=2.0.0                    # PyTorch for running neural network models
+transformers>=4.30.0            # HuggingFace library for Llama and other language models
+accelerate>=0.20.0              # Speeds up model loading and inference
+
+# LangChain for LLM Orchestration
+langchain>=0.1.0                # Framework for building LLM applications
+langchain-community>=0.0.10      # Community integrations
+langchain-huggingface>=0.0.1    # HuggingFace model integration for LangChain
+
+# Audio Processing (for voice features)
+sounddevice>=0.4.6              # Record audio from microphone
+soundfile>=0.12.1               # Read/write audio files
+openai-whisper>=20231117        # Speech-to-text transcription
+pyttsx3>=2.90                   # Text-to-speech synthesis
+
+# Data Processing
+pandas>=1.5.0                   # Data manipulation and CSV export
+numpy>=1.24.0                   # Numerical computing
+
+# Web Interface
+gradio>=4.0.0                   # Beautiful web UI framework
+
+# Utilities
+pydantic>=2.0.0                 # Data validation
+
+# Optional: For Jupyter notebook development
+# jupyter>=1.0.0
+# ipykernel>=6.0.0
